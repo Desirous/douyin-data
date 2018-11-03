@@ -1,7 +1,7 @@
 # douyin-data
-爬取抖音数据
+爬取抖音数据 纯Python版本
 
-此脚本以停止维护 转而维护 https://github.com/PUGE/crawlerQueues 工程
+此脚本以停止维护 转而维护 https://github.com/PUGE/crawler 工程
 
 crawlerQueues使用python作为后端 Golang作为采集端
 优点:
