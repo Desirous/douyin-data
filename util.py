@@ -171,7 +171,7 @@ class SignUtil(object):
         # print(int(t))
         if not force and self.sign['expired'] > int(t):
             logging.info("use cache")
-            await trio.sleep(1)
+            await trio.sleep(0.1)
             return self.sign['common_params'], self.sign['token']
         device = await self.get_device()
         common_params = {** device, ** APPINFO}
